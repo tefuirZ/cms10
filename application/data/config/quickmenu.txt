@@ -1,0 +1,4 @@
+更新日志,//www.maccms.com/doc/v10/log.html
+视频管理,vod/data
+海螺模板设置,/admin.php/admin/conch/theme
+海螺模板设置,/admin.php/admin/admin/lock

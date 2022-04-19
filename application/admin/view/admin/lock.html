@@ -1,0 +1,54 @@
+{include file="../../../application/admin/view/public/head" /}
+<div class="page-container p10">
+    <h3>播放前广告</h3>
+    <form class="layui-form layui-form-pane" method="post" action="{:url('admin/lock')}">
+
+                                <div class="layui-input-inline w400">
+                            <input type="radio" name="ad_select" value="html" title="网页广告" {if condition="$menus.ad_select eq html"}checked {/if}>
+                            <input type="radio" name="ad_select" value="video" title="视频广告" {if condition="$menus.ad_select eq video"}checked {/if}>
+                        </div>
+                        <br>
+                        <br>
+        <div class="layui-form-item">
+            <label class="layui-form-label">html代码：</label>
+            <div class="layui-input-block  ">
+                <!--<input type="text" class="layui-input" value="{$menus.html_code}" placeholder="" id="admin_name" name="html_code">-->
+                <textarea  name="html_code" id="" cols="100" rows="10">{$menus.html_code}</textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">视频广告地址：</label>
+            <div class="layui-input-block  ">
+                <input type="text" class="layui-input" value="{$menus.vod_url}" placeholder="" id="admin_name" name="vod_url">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">视频广告跳转地址：</label>
+            <div class="layui-input-block  ">
+                <input type="text" class="layui-input" value="{$menus.click_url}" placeholder="" id="admin_name" name="click_url">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">超时时间：</label>
+            <div class="layui-input-inline w400 ">
+                <input type="text" class="layui-input" value="{$menus.timeout}" placeholder="" id="admin_name" name="timeout">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">首页播放记录</label>
+          <div class="layui-input-inline w400">
+              
+            <input type="radio" name="home_history" value="on" title="开启" {if condition="$menus.home_history eq on"}checked {/if}>
+            <input type="radio" name="home_history" value="off" title="关闭" {if condition="$menus.home_history eq off"}checked {/if}>
+        </div>
+    </div>
+<button type="submit">提交</button>
+    </form>
+
+</div>
+{include file="../../../application/admin/view/public/foot" /}
+
+
+
+</body>
+</html>

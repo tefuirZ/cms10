@@ -1,0 +1,387 @@
+ .download {
+     text-align: center
+ }
+
+ .download__part1 {
+     background-color: #f9fbfc;
+     padding-top: 123px
+ }
+
+ .download__part2 {
+     background-color: #fff;
+     margin-top: 167px
+ }
+
+ .download__part2-left {
+     display: inline-block;
+     text-align: right
+ }
+
+ .download__part2-right {
+     display: inline-block;
+     text-align: left
+ }
+
+ .download__part2-ff {
+     margin-top: 285px
+ }
+
+ .download__part2-dn {
+     margin-top: 215px
+ }
+
+ .download__part3 {
+     height: 400px;
+     background: #f5f8f9
+ }
+
+
+ .download__img1 {
+     width: 240px
+ }
+
+ .download__img2 {
+     width: 1299px;
+     height: 689px
+ }
+
+ .download__img3 {
+     width: 571px;
+     height: 436px;
+     vertical-align: -120px
+ }
+
+ .download__img4 {
+     width: 1120px;
+     height: 357px;
+     padding-top: 39px
+ }
+
+ .download__img5 {
+     width: 616px;
+     height: 827px;
+     vertical-align: -520px
+ }
+
+ .download__txt {
+     font-size: 18px;
+     color: #505050;
+     letter-spacing: 4px;
+     line-height: 18px;
+     display: block;
+     margin: 16px 0;
+     font-weight: 500
+ }
+
+ .download__txt-big {
+     font-size: 36px;
+     color: #222;
+     letter-spacing: 4px;
+     line-height: 36px;
+     margin-left: 15px
+ }
+
+ .download__txt-xx {
+     letter-spacing: 22px;
+     padding: 117px 0 44px;
+     font-size: 18px;
+     margin: 0
+ }
+
+ .download__hot {
+     vertical-align: top;
+     margin-right: 15px
+ }
+
+ .download__flower {
+     vertical-align: middle;
+     margin-right: 15px
+ }
+
+ .download__heart {
+     vertical-align: middle;
+     margin-left: 15px
+ }
+
+ .download__no-margin {
+     margin: 0
+ }
+
+ .download__btn {
+     width: 100%;
+ }
+
+
+ .download__btn-item {
+     background: #FFA970;
+     width: 30%;
+     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .08);
+     border-radius: 4px;
+     font-size: 18px;
+     color: #fff;
+     line-height: 18px;
+     padding: 13px 1.1875rem 13px;
+     position: relative;
+     display: inline-block;
+     /* margin-right: 20px; */
+     cursor: pointer
+ }
+
+ .download__btn-item:hover {
+     background-color: orange;
+     color: #fff
+ }
+
+ .download__btn-item:hover>.download__btn__qrcode {
+     opacity: 1
+ }
+
+ .download__btn-item:last-of-type {
+     margin-right: 0
+ }
+
+ .download__btn-item-txt {
+     vertical-align: middle
+ }
+
+ .download__btn-icon {
+     font-size: 20px;
+     margin-right: 6px;
+     vertical-align: middle
+ }
+
+ .download__btn-tv {
+     background-image: url(../fonts/dl_tv.66457c23.svg);
+     display: inline-block;
+     height: 20px;
+     width: 20px;
+     vertical-align: middle;
+     background-size: cover;
+     margin-right: 6px
+ }
+
+ .download__btn-tv-hover {
+     width: 174px;
+     position: absolute;
+     -webkit-transition: all .3s .3s;
+     transition: all .3s .3s;
+     opacity: 0;
+     z-index: 10;
+     left: 0;
+     top: 52px;
+     color: #333;
+     text-align: left;
+     font-size: 13px;
+     background-color: #fff;
+     box-shadow: 2px 2px 8px rgba(0, 0, 0, .2), -2px 2px 8px rgba(0, 0, 0, .3);
+     border-radius: 4px;
+     line-height: 20px;
+     padding: 10px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     cursor: default
+ }
+
+ .download__btn-tv-cont:hover .download__btn-tv-hover {
+     opacity: 1
+ }
+
+ .download__btn__qrcode {
+     width: 140px;
+     height: 140px;
+     position: absolute;
+     -webkit-transition: all .3s .3s;
+     transition: all .3s .3s;
+     opacity: 0;
+     z-index: 10;
+     left: -2px;
+     top: 52px
+ }
+
+ body {
+     /* max-width: 640px; */
+     /* min-width: 360px; */
+     margin: 0 auto;
+     padding: 0 0;
+     box-sizing: border-box;
+     /* background: url(img/bg.jpg) no-repeat center; */
+     background-size: cover;
+ }
+
+ #logo img {
+     margin: 0 auto;
+     height: 8.25rem;
+ }
+
+ #phone {
+     width: 100%;
+ }
+
+ #phone img {
+     width: 100%;
+ }
+
+ #download {
+     width: 70%;
+     margin: 1.875rem auto 0 auto;
+ }
+
+ #download dl dd {
+     height: 3.125rem;
+     line-height: 3.125rem;
+     margin-bottom: 1.25rem;
+     border: 1px solid #e1e1e1;
+     border-radius: 1.625rem;
+     font-size: 0.9375rem;
+     text-align: center;
+     overflow: hidden;
+     background-color: #000000;
+ }
+
+ #download dl dd:last-child {
+     margin-bottom: 0;
+ }
+
+ #download dl dd a {
+     display: block;
+ }
+
+ #download dl dd em {
+     display: inline-block;
+     background-repeat: no-repeat;
+     background-position: left center;
+     color: #fff;
+ }
+
+ #download dl dd em.ios {
+     padding-left: 2.5rem;
+     background-image: url(img/ios.png);
+     background-size: 1.25rem 1.5rem;
+ }
+
+ #download dl dd em.android {
+     padding-left: 2.625rem;
+     background-image: url(img/android.png);
+     background-size: 1.375rem 1.625rem;
+ }
+
+ #download dl dd i {
+     font-size: 0.8125rem;
+ }
+
+ #copyright {
+     margin-top: 1.875rem;
+     line-height: 1.875rem;
+     font-size: 0.9375rem;
+     text-align: center;
+     color: #fff;
+     overflow: hidden;
+ }
+
+
+ header {
+     left: 0;
+     top: 0;
+     width: 90%;
+     height: 3.75rem;
+     line-height: 3.75rem;
+     padding: 0 5%;
+     background: rgb(102, 102, 102, 0.1);
+     color: #000;
+ }
+
+ header img {
+     height: 1.625rem;
+     margin-top: 1.0625rem;
+ }
+
+ header h3 {
+     font-size: 0.875rem;
+ }
+
+
+ footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 3.125rem;
+     line-height: 3.125rem;
+     background: rgb(102, 102, 102, 0.1);
+     font-size: 0.875rem;
+     color: #000;
+ }
+
+ footer a {
+     color: #fff;
+ }
+
+
+ @media screen and (max-width:414px) {
+     header {
+         height: 3.375rem;
+         line-height: 3.375rem;
+     }
+
+     header img {
+         height: 1.25rem;
+     }
+
+     /* 	main {
+		padding: 8.375rem 0 7.875rem 0;
+	}
+ */
+     footer {
+         height: 2.875rem;
+         line-height: 2.875rem;
+     }
+
+
+     body {
+         padding: 1rem 0;
+     }
+
+     #logo img {
+         height: 8.875rem;
+     }
+
+
+
+     #download {
+         width: 13.125rem;
+         margin: 1.5rem auto 0 auto;
+     }
+
+     #download dl {
+         padding-left: 0.3125rem;
+     }
+
+     #download dl dd {
+         height: 2.875rem;
+         line-height: 2.875rem;
+         margin-bottom: 1rem;
+         border-radius: 1.5rem;
+         font-size: 0.875rem;
+     }
+
+     #download dl dd em.ios {
+         padding-left: 2.375rem;
+         background-size: 1.125rem 1.375rem;
+     }
+
+     #download dl dd em.android {
+         padding-left: 2.5rem;
+         background-size: 1.25rem 1.5rem;
+     }
+
+     #download dl dd i {
+         font-size: 0.75rem;
+     }
+
+     #copyright {
+         margin-top: 1.5rem;
+         line-height: 1.625rem;
+         font-size: 0.875rem;
+     }
+ }
